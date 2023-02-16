@@ -1,0 +1,9 @@
+set value of e to input from user with prompt of what is your name?
+output "Hi " plus e
+set value of e to input from user with prompt of what is your age?
+convert e to number
+set value of birthyear to this year minus e
+set value of bmin1 to birthyear - 1
+convert birthyear to text
+convert bmin1 to text
+output "you were born in " + birthyear + " or " + bmin1
